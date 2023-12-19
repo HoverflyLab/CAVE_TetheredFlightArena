@@ -1,0 +1,2 @@
+clear all
+videopath = uigetfile('''Select Input video.');

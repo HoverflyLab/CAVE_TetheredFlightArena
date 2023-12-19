@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c453d4aaff3a0ff1ae3cc837827704e, type: 3}
+  m_Name: DandelionTrial_GreyScale
+  m_EditorClassIdentifier: 
+  sceneName: Dandelion_GreyScale
+  completionType: 1
+  trialDuration: 60
+  preStimulusType: 1
+  preStimulusDuration: 0.5
+  preStimulus: 1
+  preStimulusColor:
+    serializedVersion: 2
+    rgba: 4286611584
+  preStimulusRevolutions: 2
+  postStimulusType: 1
+  postStimulusDuration: 0.5
+  postStimulus: 1
+  postStimulusColor:
+    serializedVersion: 2
+    rgba: 4286611584
+  postStimulusRevolutions: 3
+  list_of_Interventions: []
+  list_Of_Objects_Of_Interest:
+  - {fileID: 11400000, guid: 8a627320ffeba9b00bca81b0701504fb, type: 2}
+  - {fileID: 11400000, guid: 6d4aa1f9514ea9a0292ddbd879631d17, type: 2}
+  list_Of_OOI_Position_Changes:
+  - {x: -0.64, y: 0, z: 0.77}
+  - {x: 0.98, y: 0, z: 0.17}
+  list_Of_OOI_Proximities:
+  - 0.4
+  - 0.4
+  list_Of_OOI_Proximity_Durations:
+  - 2
+  - 2

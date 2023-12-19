@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 142c4ce7afda98e7199f3835aa67b10f
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -6320265510489951892
+    second: Sun|CameraAction.002
+  - first:
+      74: 94235279339520815
+    second: Sun|Wing + holder leftAction
+  - first:
+      74: 8229504471223239115
+    second: Sun|Wing + holder rightAction
+  - first:
+      74: -4833103064081419563
+    second: Bone hind leg right|Bone fly bodyAction.001
+  - first:
+      74: -6844651689950371319
+    second: Bone hind leg right|Bone front leg leftAction.001
+  - first:
+      74: -8929280735294249434
+    second: Bone hind leg right|Bone front leg rightAction.001
+  - first:
+      74: 1195097344749131017
+    second: Bone hind leg right|Bone hind leg leftAction.001
+  - first:
+      74: -861928989726193265
+    second: Bone hind leg right|Bone hind leg rightAction.001
+  - first:
+      74: -8701460197656637562
+    second: Bone hind leg right|Bone middle leg leftAction.001
+  - first:
+      74: 3429827626529196538
+    second: Bone hind leg right|Bone middle leg rightAction.001
+  - first:
+      74: 935387116564145542
+    second: Bone hind leg right|CameraAction.002
+  - first:
+      74: 7842023421566262167
+    second: Bone hind leg right|Wing + holder leftAction
+  - first:
+      74: 11107460394780377
+    second: Bone hind leg right|Wing + holder rightAction
+  - first:
+      74: 3820355207272690304
+    second: Hind leg.001|CameraAction.002
+  - first:
+      74: -3929664414075476212
+    second: Hind leg.001|Wing + holder leftAction
+  - first:
+      74: 3506845173673625304
+    second: Hind leg.001|Wing + holder rightAction
+  - first:
+      74: -2380652075973113829
+    second: Bone middle leg right|Bone fly bodyAction.001
+  - first:
+      74: 6187646603585788692
+    second: Bone middle leg right|Bone front leg leftAction.001
+  - first:
+      74: -4294961975948589610
+    second: Bone middle leg right|Bone front leg rightAction.001
+  - first:
+      74: 1175873782688307301
+    second: Bone middle leg right|Bone hind leg leftAction.001
+  - first:
+      74: 2825398869150406418
+    second: Bone middle leg right|Bone hind leg rightAction.001
+  - first:
+      74: 7029845315813672412
+    second: Bone middle leg right|Bone middle leg leftAction.001
+  - first:
+      74: -4763829608162973417
+    second: Bone middle leg right|Bone middle leg rightAction.001
+  - first:
+      74: -6446723283160193906
+    second: Bone middle leg right|CameraAction.002
+  - first:
+      74: -6127102550580980059
+    second: Bone middle leg right|Wing + holder leftAction
+  - first:
+      74: 2573585059724488711
+    second: Bone middle leg right|Wing + holder rightAction
+  - first:
+      74: -1399119550934821485
+    second: Mid leg.001|CameraAction.002
+  - first:
+      74: -5049349461933090309
+    second: Mid leg.001|Wing + holder leftAction
+  - first:
+      74: -4240525560928488871
+    second: Mid leg.001|Wing + holder rightAction
+  - first:
+      74: 1870530437859562980
+    second: Bone front leg right|Bone fly bodyAction.001
+  - first:
+      74: -7277229266268885960
+    second: Bone front leg right|Bone front leg leftAction.001
+  - first:
+      74: 1287272139876073967
+    second: Bone front leg right|Bone front leg rightAction.001
+  - first:
+      74: 7478947725018960081
+    second: Bone front leg right|Bone hind leg leftAction.001
+  - first:
+      74: 6827872125222881704
+    second: Bone front leg right|Bone hind leg rightAction.001
+  - first:
+      74: -2312116943249537406
+    second: Bone front leg right|Bone middle leg leftAction.001
+  - first:
+      74: 8113352078013915999
+    second: Bone front leg right|Bone middle leg rightAction.001
+  - first:
+      74: -4776594564080164793
+    second: Bone front leg right|CameraAction.002
+  - first:
+      74: -3543443916121753697
+    second: Bone front leg right|Wing + holder leftAction
+  - first:
+      74: 1945879700519004152
+    second: Bone front leg right|Wing + holder rightAction
+  - first:
+      74: -2256358040498284256
+    second: Front leg.001|CameraAction.002
+  - first:
+      74: 2839310682899631986
+    second: Front leg.001|Wing + holder leftAction
+  - first:
+      74: 338161504288789136
+    second: Front leg.001|Wing + holder rightAction
+  - first:
+      74: 3723261877975285907
+    second: Bone fly body|Bone fly bodyAction.001
+  - first:
+      74: 1826185477302667603
+    second: Bone fly body|CameraAction.002
+  - first:
+      74: -3863739463904497362
+    second: Bone fly body|Wing + holder leftAction
+  - first:
+      74: 695928080008239440
+    second: Bone fly body|Wing + holder rightAction
+  - first:
+      74: 7578147903635874888
+    second: Fly|CameraAction.002
+  - first:
+      74: -2352457284621887817
+    second: Fly|Wing + holder leftAction
+  - first:
+      74: 8945034120125601331
+    second: Fly|Wing + holder rightAction
+  - first:
+      74: 2460389289030274735
+    second: Bone front leg left|Bone fly bodyAction.001
+  - first:
+      74: -7903434398640660746
+    second: Bone front leg left|Bone front leg leftAction.001
+  - first:
+      74: -318058705998562365
+    second: Bone front leg left|Bone front leg rightAction.001
+  - first:
+      74: 3656107868306589493
+    second: Bone front leg left|Bone hind leg leftAction.001
+  - first:
+      74: -296282312570967846
+    second: Bone front leg left|Bone hind leg rightAction.001
+  - first:
+      74: 5330819695733946336
+    second: Bone front leg left|Bone middle leg leftAction.001
+  - first:
+      74: -837062743400992540
+    second: Bone front leg left|Bone middle leg rightAction.001
+  - first:
+      74: -433611231302130425
+    second: Bone front leg left|CameraAction.002
+  - first:
+      74: -8599616812125521078
+    second: Bone front leg left|Wing + holder leftAction
+  - first:
+      74: -1279061497520462780
+    second: Bone front leg left|Wing + holder rightAction
+  - first:
+      74: -42682279899951722
+    second: Front leg|CameraAction.002
+  - first:
+      74: 9068942962124434373
+    second: Front leg|Wing + holder leftAction
+  - first:
+      74: 62287401875998169
+    second: Front leg|Wing + holder rightAction
+  - first:
+      74: -3300505910569308915
+    second: Bone middle leg left|Bone fly bodyAction.001
+  - first:
+      74: 7237518532954517119
+    second: Bone middle leg left|Bone front leg leftAction.001
+  - first:
+      74: 1184383674446400078
+    second: Bone middle leg left|Bone front leg rightAction.001
+  - first:
+      74: 6397738735913224806
+    second: Bone middle leg left|Bone hind leg leftAction.001
+  - first:
+      74: -1733500422455682140
+    second: Bone middle leg left|Bone hind leg rightAction.001
+  - first:
+      74: 283217407247419135
+    second: Bone middle leg left|Bone middle leg leftAction.001
+  - first:
+      74: -6269489716138239726
+    second: Bone middle leg left|Bone middle leg rightAction.001
+  - first:
+      74: 3958200173135305570
+    second: Bone middle leg left|CameraAction.002
+  - first:
+      74: -337574184798383198
+    second: Bone middle leg left|Wing + holder leftAction
+  - first:
+      74: 4200224233433485490
+    second: Bone middle leg left|Wing + holder rightAction
+  - first:
+      74: 5422603547961943242
+    second: Mid leg|CameraAction.002
+  - first:
+      74: -3550566624501695585
+    second: Mid leg|Wing + holder leftAction
+  - first:
+      74: 652180111780290572
+    second: Mid leg|Wing + holder rightAction
+  - first:
+      74: 6170195533057315506
+    second: Bone hind leg left|Bone fly bodyAction.001
+  - first:
+      74: -7382332881667199904
+    second: Bone hind leg left|Bone front leg leftAction.001
+  - first:
+      74: -8619690823269714387
+    second: Bone hind leg left|Bone front leg rightAction.001
+  - first:
+      74: 2365831165629902427
+    second: Bone hind leg left|Bone hind leg leftAction.001
+  - first:
+      74: -2984595887666126399
+    second: Bone hind leg left|Bone hind leg rightAction.001
+  - first:
+      74: 6895756524206138127
+    second: Bone hind leg left|Bone middle leg leftAction.001
+  - first:
+      74: -5413967075037139532
+    second: Bone hind leg left|Bone middle leg rightAction.001
+  - first:
+      74: -6828693954216229085
+    second: Bone hind leg left|CameraAction.002
+  - first:
+      74: -9161381042082107208
+    second: Bone hind leg left|Wing + holder leftAction
+  - first:
+      74: 2060283177286153600
+    second: Bone hind leg left|Wing + holder rightAction
+  - first:
+      74: -8236120606085176786
+    second: Hind leg|CameraAction.002
+  - first:
+      74: -7619467880745075726
+    second: Hind leg|Wing + holder leftAction
+  - first:
+      74: -1605142569650874071
+    second: Hind leg|Wing + holder rightAction
+  - first:
+      74: 5382008292848325053
+    second: Wing + holder left|CameraAction.002
+  - first:
+      74: 8132399113625870850
+    second: Wing + holder left|Wing + holder leftAction
+  - first:
+      74: 3770015778534825670
+    second: Wing + holder left|Wing + holder rightAction
+  - first:
+      74: -2640696997850555048
+    second: Wing + holder right|CameraAction.002
+  - first:
+      74: 8230777798114992584
+    second: Wing + holder right|Wing + holder leftAction
+  - first:
+      74: 1115140604502839300
+    second: Wing + holder right|Wing + holder rightAction
+  - first:
+      74: 5066949597029879171
+    second: Hemi.001|CameraAction.002
+  - first:
+      74: 5530760220799063471
+    second: Hemi.001|Wing + holder leftAction
+  - first:
+      74: 5171752334904287642
+    second: Hemi.001|Wing + holder rightAction
+  - first:
+      74: 5628816005536468543
+    second: Camera|CameraAction.002
+  - first:
+      74: -3253929706093895767
+    second: Camera|Wing + holder leftAction
+  - first:
+      74: 6195627544961457337
+    second: Camera|Wing + holder rightAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abdomen
+    second: {fileID: 2100000, guid: d33faabcd92a675fdb1f4df672fd5d49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back of head
+    second: {fileID: 2100000, guid: a38986be2a8f33063b691697ce70870a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 4f257028a2090a80ba8d2fd6a9f88e15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fake wing rib
+    second: {fileID: 2100000, guid: b65fe609fccf54081873931d0d61930d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Femur color front leg
+    second: {fileID: 2100000, guid: 14b617af48251eccab06c39976f873cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Femur color front leg.001
+    second: {fileID: 2100000, guid: 645b300fbeca8ffb8922a18fa30b4f93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Femur color hind leg
+    second: {fileID: 2100000, guid: bcececb964c367c918061432662ecc74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Femur color hind leg.001
+    second: {fileID: 2100000, guid: a1b4106db89f56873ab6e04a90c8ee62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Femur color mid leg
+    second: {fileID: 2100000, guid: 919a416a04a8108999a842f5f404abd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fot color mid leg
+    second: {fileID: 2100000, guid: 17c80fbd457f3c2d9a13dc2a15603900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground color
+    second: {fileID: 2100000, guid: 44922057bc596c3cf84652b5b9a19aac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Higher abodmen triangles
+    second: {fileID: 2100000, guid: ebb2f5f11a3552d09b5a912a5ed45627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lines on abdomen
+    second: {fileID: 2100000, guid: dce46933d9c58f488b55f713101b4080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lower abdomen triangles
+    second: {fileID: 2100000, guid: a72b703f79589a19d82753fcc311a619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oceli triangle
+    second: {fileID: 2100000, guid: 82b7860a7dde0f825961709969b06baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outer antenna segment
+    second: {fileID: 2100000, guid: 5608d777ad01f156d8fd8423847bbd8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tibia color front leg
+    second: {fileID: 2100000, guid: 97782bb787d1ec6498b005dec22ad743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tibia color mid leg
+    second: {fileID: 2100000, guid: ce5580d5d04110e78a1ddd630cee5aeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing mark
+    second: {fileID: 2100000, guid: 40c739b09d740495d956c6d4b8487cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing membrane
+    second: {fileID: 2100000, guid: a2a8c35a350272accb80d2beaa4537c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing veins
+    second: {fileID: 2100000, guid: a843e61105c4cf04494e5b0fb441f93f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow on face
+    second: {fileID: 2100000, guid: f07fad860d921ad619978ab7e250740f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow onAntenna holder
+    second: {fileID: 2100000, guid: 9d094119c88ed93a09c90e81d40d216e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.003
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.003
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

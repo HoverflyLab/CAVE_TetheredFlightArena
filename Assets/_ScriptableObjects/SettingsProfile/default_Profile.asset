@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b4ae9dff8c52a46ae7ae176ff4e96a, type: 3}
+  m_Name: default_Profile
+  m_EditorClassIdentifier: 
+  personalFolderName: TestData
+  numberOfMonitors: 4
+  targetFrameRate: 165
+  list_of_monitorResolutions:
+  - {x: 1920, y: 1080}
+  - {x: 1440, y: 2560}
+  - {x: 1440, y: 2560}
+  - {x: 1440, y: 2560}
+  videoResolution: {x: 320, y: 240}
+  yaw_Method: 1
+  yaw_dps: 36
+  minYaw: 0
+  yawAtMidpoint: 0
+  maxYaw: 1600
+  min_WBAD: 0
+  midpoint_WBAD: 2
+  max_WBAD: 180
+  thrust_Method: 1
+  thrust_mps: 2
+  minThrust: 0
+  thrustAtMidpoint: 0.4
+  maxThrust: 0.9
+  min_WBAS: 0
+  midpoint_WBAS: 180
+  max_WBAS: 360

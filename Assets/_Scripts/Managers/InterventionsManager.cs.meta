@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: dda1f6adb5fff3d0ca11383b0c5bda9f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - OOI_Parent: {fileID: 11400000, guid: cb3ac10ef0147dd458a5baf41e973d18, type: 2}
+  executionOrder: -88
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

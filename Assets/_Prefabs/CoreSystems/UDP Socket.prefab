@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1067934201443464999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067934201443465002}
+  - component: {fileID: 1067934201443464997}
+  - component: {fileID: 1067934201443464996}
+  m_Layer: 0
+  m_Name: UDP Socket
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1067934201443465002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067934201443464999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1067934201443464997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067934201443464999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4230f9a8870aa3cbae19dea5e952df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  verbose: 0
+  isPacketTest: 0
+  isLatencyTest: 0
+--- !u!114 &1067934201443464996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067934201443464999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a86673b12b98c769b2ccebd5976747c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lean_direction: 0
+  Angle_theta: 0
+  Frame_height: 240
+  Array_of_points: []
+  Center_upper_point: {x: 160, y: 200}
+  Center_lower_point: {x: 160, y: 100}
+  Use_manual_hinge_points: 0
+  Right_hinge_point: {x: 0, y: 0}
+  Left_hinge_point: {x: 0, y: 0}
+  Right_outer_point: {x: 0, y: 0}
+  Left_outer_point: {x: 0, y: 0}
+  Right_angle: 0
+  Left_angle: 0
+  Final_right: 0
+  Final_left: 0
+  Average_trial_duration_in_minutes: 2
+  containsUnusedLabels: 0
