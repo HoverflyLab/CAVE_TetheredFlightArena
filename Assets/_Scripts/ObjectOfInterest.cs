@@ -525,10 +525,11 @@ namespace TetheredFlight
             PositionData[1].Add(transform.position.y.ToString());
             PositionData[2].Add(transform.position.z.ToString());
             
-            RotationData[0].Add(transform.localEulerAngles.x.ToString());
-            RotationData[1].Add(transform.localEulerAngles.y.ToString());
-            RotationData[2].Add(transform.localEulerAngles.z.ToString());
+            RotationData[0].Add(transform.eulerAngles.x.ToString());
+            RotationData[1].Add(transform.eulerAngles.y.ToString());
+            RotationData[2].Add(transform.eulerAngles.z.ToString());
 
+            //Use local scale as we cannot set Global Scale from recorded values
             ScaleData[0].Add(transform.localScale.x.ToString());
             ScaleData[1].Add(transform.localScale.y.ToString());
             ScaleData[2].Add(transform.localScale.z.ToString());
@@ -853,12 +854,12 @@ namespace TetheredFlight
                 tempApproachTransform = new GameObject().transform;
             }
              
-            //Set temp transforms values to the same values as our approach target so we can calculate our values based on its location and rotation, add offsets.
-            tempApproachTransform.position = approachTarget.position + approachOffset;
+            //Set temp transforms values to the same values as our approach target so we can calculate our values based on its location and rotation.
+            tempApproachTransform.position = approachTarget.position;
             tempApproachTransform.eulerAngles = approachTarget.eulerAngles + approachDirection;
 
             //set this objects position relative to the target OOI (Its original direction + approach direction) then spawn it at the approach distance in that direction.
-            this.transform.position = (approachTargetOriginalLocation + approachOffset) + (tempApproachTransform.forward * approachDistance);
+            this.transform.position = approachTargetOriginalLocation + (tempApproachTransform.forward * approachDistance);
 
             approachOverride = true;
         }
