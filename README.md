@@ -15,8 +15,8 @@ The CAVE project provides users with the following
 - [Installation Guide](https://drive.google.com/drive/folders/1BMVr8nH6EV9duNTKSAItW-cu7hiIqaZ5?usp=sharing) - Installing and configuring CAVE and its dependencies.
 - [Tutorial Videos](https://drive.google.com/drive/folders/1BMVr8nH6EV9duNTKSAItW-cu7hiIqaZ5?usp=sharing) - Introduction to CAVE and the Unity Editor.
 - [CAVE User Manual](https://drive.google.com/drive/folders/1BMVr8nH6EV9duNTKSAItW-cu7hiIqaZ5?usp=sharing) - Complete feature list and guide to using CAVE.
-- [Link to Paper]()
-- [Link to DataDryad]()
+- Link to Paper (placeholder)
+- Link to DataDryad (placeholder)
 
 ## Licensing
 The licensing for this repository applies to files and work completed by the Hoverfly Motion Vision Lab, please see 3rd party licensing agreements for files and work belonging to other entities e.g Unity, DeepLabCut.
