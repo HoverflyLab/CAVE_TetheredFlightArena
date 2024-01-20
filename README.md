@@ -1,7 +1,7 @@
 # CAVE - Simplified Virtual Reality for Quantifying Animal Behaviour
-CAVE is an open source project developed by the [Hoverfly Motion Vision Lab](https://hoverflyvision.weebly.com/) designed to streamline the process of setting up a Tethered Flight Arena. 
+CAVE is an open source project developed by the XXXX designed to streamline the process of setting up a Tethered Flight Arena. 
 
-![CaveDiagram](https://github.com/HoverflyLab/CAVE_TetheredFlightArena/assets/68989844/3425d8d8-0acd-4525-a433-8c49e124c2ad)
+![Diagram](https://github.com/HoverflyLab/CAVE_TetheredFlightArena/assets/68989844/3425d8d8-0acd-4525-a433-8c49e124c2ad)
 
 CAVE leverages both the [Unity Editor](https://unity.com/products/unity-engine) and [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut) to deliver a flexible and low latency platform for quantifying animal behaviour.
 
