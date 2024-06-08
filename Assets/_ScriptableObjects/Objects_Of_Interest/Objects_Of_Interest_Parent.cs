@@ -23,7 +23,9 @@ namespace TetheredFlight
             {
                 List_of_OOI.Add(_object);
                 AssignID(_object);
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 
@@ -32,7 +34,9 @@ namespace TetheredFlight
             if (List_of_OOI.Contains(_object) == true)
             {
                 List_of_OOI.Remove(_object);
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 
@@ -51,7 +55,9 @@ namespace TetheredFlight
             {
                 _object.SetID(uniqueIDCounter);
                 uniqueIDCounter++;
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 

@@ -17,7 +17,13 @@ namespace TetheredFlight
 
         #region Getters
         public override ObjectOfInterestType Get_Object_Of_Interest_Type() { return type; }
-        public override void Set_Object_Of_Interest_Type(ObjectOfInterestType _type) { type = _type; EditorUtility.SetDirty(this); }
+        public override void Set_Object_Of_Interest_Type(ObjectOfInterestType _type) 
+        { 
+            type = _type;
+#if UNITY_EDITOR
+            EditorUtility.SetDirty(this);
+#endif
+        }
         #endregion
     }
 }

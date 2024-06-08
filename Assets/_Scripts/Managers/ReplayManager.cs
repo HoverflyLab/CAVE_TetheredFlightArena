@@ -82,7 +82,16 @@ namespace TetheredFlight
 
         public void LocateTrialFolder()
         {
+            //TODO: Reimplement our folder selection method as the EditorUtility functions don't work in build.
+            //Likely best to just use a free package from the unity store for this
+#if !UNITY_EDITOR
+            return;
+#endif
+
+#pragma warning disable CS0162
+#if UNITY_EDITOR
             trialFolderPath = EditorUtility.OpenFolderPanel("Select the Trial Folder you wish to replay"," ", " ");
+#endif
 
             if(trialFolderPath != string.Empty)
             {
@@ -94,6 +103,7 @@ namespace TetheredFlight
                 Debug.LogWarning("Warning: No filepath was provided");
                 Disable_Replay_Manager();
             }
+            #pragma warning restore CS0162
         }
 
         private void Load_Replay_Files(string trialFolderPath)
