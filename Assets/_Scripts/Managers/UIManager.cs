@@ -99,6 +99,9 @@ namespace TetheredFlight
 
             SequenceManager.Instance.Reset_Number_Of_Trials();
             SequenceManager.Instance.Start_First_Sequence();
+
+            //Hide all UI now that we only have 1 screen
+            this.gameObject.SetActive(false);
         }
         
         //Called via Button

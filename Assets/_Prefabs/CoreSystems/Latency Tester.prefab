@@ -132,7 +132,7 @@ MonoBehaviour:
   top_Right_Point: {x: 0, y: 0}
   bottom_Left_Point: {x: 0, y: 0}
   bottom_Right_Point: {x: 0, y: 0}
-  midPoint: {x: 160, y: 200}
+  midPoint: {x: 160, y: 120}
   squareMidPoint: {x: 0, y: 0}
   Average_trial_duration_in_minutes: 2
   containsUnusedLabels: 0

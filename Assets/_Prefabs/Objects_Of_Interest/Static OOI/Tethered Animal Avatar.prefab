@@ -101,7 +101,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 2
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -344,7 +344,7 @@ MonoBehaviour:
   minimumApproachDistance: 0.2
   encounterType: 0
   triggerDelay: 1
-  OOI_To_Encouter: {fileID: 0}
+  OOI_To_Encounter: {fileID: 0}
   encounterRadius: 1.2
   encounterDuration: 1
 --- !u!1 &4153983193698919080

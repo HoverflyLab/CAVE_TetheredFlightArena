@@ -323,6 +323,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655529692 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6201344218115001490, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
+  m_PrefabInstance: {fileID: 6201344217444474872}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2071731725
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +641,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 835153725201979087, guid: 5347c205bf9550c9090576215757e681, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796073571336103520, guid: 5347c205bf9550c9090576215757e681, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5796073571336103523, guid: 5347c205bf9550c9090576215757e681, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -730,6 +749,18 @@ PrefabInstance:
     - target: {fileID: 6201344218754539834, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
       propertyPath: m_Name
       value: Latency Tester
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201344218754539837, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201344218754539838, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1655529692}
+    - target: {fileID: 6201344218754539838, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
+      propertyPath: midPoint.y
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6201344218754539839, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
       propertyPath: m_Pivot.x

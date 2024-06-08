@@ -29,8 +29,9 @@ namespace TetheredFlight
         [SerializeField, ReadOnly] private Vector2 bottom_Right_Point = new Vector2();
         #endregion
 
-        [SerializeField, ReadOnly] private Vector2 midPoint = new Vector2(160f,200f);
-        [SerializeField, ReadOnly] private Vector2 squareMidPoint = new Vector2(0f,0f);
+        //Expected camera resolution is 320x240 so mid point should be 160x120
+        [SerializeField, ReadOnly] private Vector2 midPoint = new Vector2(160,120);
+        [SerializeField, ReadOnly] private Vector2 squareMidPoint = new Vector2(0f, 0f);
 
         private System.DateTime epochStart = new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc);
 
@@ -96,6 +97,9 @@ namespace TetheredFlight
                     Array_of_lists[i] = new List<string>(SettingsManager.Instance.Get_Target_FrameRate()*60*Average_trial_duration_in_minutes);
                 }
             }
+
+            //Check midpoint to be safe
+            print("Midpoint = " + midPoint);
         }
 
         void Update()
@@ -136,7 +140,9 @@ namespace TetheredFlight
         //If the square is above the midpoint make the canvas white, otherwise make it black.
         private void Update_Latency_Canvas() 
         {
-            midPoint = DataProcessor.Instance.Get_LongitudinalAxis_Upper_Point();
+            //Value normally gets overridden using the longitudinal axis points but not doing that here for out BuildTest.
+            //This is because I cannot test using longitudinal axis points as they cannot be set (on windows devices i think).
+            //midPoint = DataProcessor.Instance.Get_LongitudinalAxis_Upper_Point();
 
             //send values to Latency Canvas
             if( squareMidPoint.y > midPoint.y)
