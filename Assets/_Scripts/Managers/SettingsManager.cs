@@ -24,6 +24,8 @@ namespace TetheredFlight
 
         private Sigmoid_Values male_Yaw_SigmoidValues;
         private Sigmoid_Values female_Yaw_SigmoidValues;
+        private int updateEveryX = 10;
+        private int count = 0;
 
         void Awake()
         {
@@ -83,6 +85,20 @@ namespace TetheredFlight
             female_Yaw_SigmoidValues.loglC50 = settingsProfile.Get_F_LoglC50();
             female_Yaw_SigmoidValues.Hillslope = settingsProfile.Get_F_Hillside();
         }
+
+        //Check how stable FPS is via log
+        //private void Update()
+        //{
+        //    if(count == updateEveryX)
+        //    {
+        //        Debug.LogError($"Current fps - {1 / Time.deltaTime}");
+        //        count = 0;
+        //    }
+        //    else
+        //    {
+        //        count++;
+        //    }
+        //}
 
         #region Getters
         public string Get_Profile_Name()
