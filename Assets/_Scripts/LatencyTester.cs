@@ -49,10 +49,16 @@ namespace TetheredFlight
         [SerializeField,ReadOnly] private bool containsUnusedLabels = false;
 
         #region Canvas Variables
+        
         [SerializeField] private RawImage canvas = default;
         private Color32 whiteColor = new Color32(255,255,255,255);
         private Color32 blackColor = new Color32(0,0,0,255);
         private bool isWhite = false;
+
+        //Set true for latency test, set false for frame test.
+        public bool isLatencyTest = true;
+        private int currentColor = 0;
+        [SerializeField] private List<Color> frameTestColors = new List<Color>();
         #endregion
 
         void Awake()
@@ -109,16 +115,29 @@ namespace TetheredFlight
                 Array_of_lists[3].Add(Get_Time_In_Milliseconds().ToString());
                 valuesUpdated = false;
             }
-
+            
             if(canvas.enabled == true)
             {
-                if(isWhite == true)
+                if (isLatencyTest == true)
                 {
-                    canvas.color = whiteColor;
+                    if (isWhite == true)
+                    {
+                        canvas.color = whiteColor;
+                    }
+                    else
+                    {
+                        canvas.color = blackColor;
+                    }
                 }
                 else
                 {
-                    canvas.color = blackColor;
+                    if (currentColor >= frameTestColors.Count)
+                    {
+                        currentColor = 0;
+                    }
+
+                    canvas.color = frameTestColors[currentColor];
+                    currentColor++;
                 }
             }
         }

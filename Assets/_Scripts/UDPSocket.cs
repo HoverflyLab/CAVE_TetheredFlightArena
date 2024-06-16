@@ -41,6 +41,7 @@ namespace TetheredFlight
         [SerializeField] private bool verbose = false;
         [SerializeField] private bool isPacketTest = false;
         [SerializeField] private bool isLatencyTest = false;
+        [SerializeField] private bool isFrameTest = false;
 
         private DataProcessor dataProcessor = null;
         private float startTime = default;
@@ -90,16 +91,30 @@ namespace TetheredFlight
             dataProcessor = DataProcessor.Instance;
             init();
 
-            if(isLatencyTest == true)
+            if (isLatencyTest == true)
             {
                 if(LatencyTester.Instance != null)
                 {
+                    LatencyTester.Instance.isLatencyTest = true;
                     LatencyTester.Instance.ActivateCanvas();
                 }
                 else
                 {
                     Debug.LogError("Error: Latency Tester does not exist");
                     isLatencyTest = false;
+                }
+            }
+            else if(isFrameTest == true) 
+            {
+                if (LatencyTester.Instance != null)
+                {
+                    LatencyTester.Instance.isLatencyTest = false; //set to frame test
+                    LatencyTester.Instance.ActivateCanvas();
+                }
+                else
+                {
+                    Debug.LogError("Error: Latency Tester does not exist");
+                    isFrameTest = false;
                 }
             }
         }
@@ -168,10 +183,14 @@ namespace TetheredFlight
                         {
                             LatencyTester.Instance.Get_Latest_UDP_Packet(lastReceivedUDPPacket);
                         }
-                        else if(isLatencyTest == false)
+                        else if(isFrameTest == true && LatencyTester.Instance != null)
+                        {
+                            LatencyTester.Instance.Get_Latest_UDP_Packet(lastReceivedUDPPacket);
+                        }
+                        else
                         {
                             dataProcessor.Get_Latest_UDP_Packet(lastReceivedUDPPacket);
-                        }           
+                        }       
                     }
                 }
                 catch (ThreadAbortException err)

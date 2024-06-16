@@ -137,6 +137,11 @@ MonoBehaviour:
   Average_trial_duration_in_minutes: 2
   containsUnusedLabels: 0
   canvas: {fileID: 6201344218115001490}
+  isLatencyTest: 1
+  frameTestColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
 --- !u!223 &6201344218754539837
 Canvas:
   m_ObjectHideFlags: 0
