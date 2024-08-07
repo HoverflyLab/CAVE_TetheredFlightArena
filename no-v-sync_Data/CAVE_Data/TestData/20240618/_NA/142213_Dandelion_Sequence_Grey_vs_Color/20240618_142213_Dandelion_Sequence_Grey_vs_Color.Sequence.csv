@@ -1,0 +1,15 @@
+Profile Name, Personal Folder Name, Distance From Screen, Number of Screens, Desired Frame Rate, Display 1 Resolution,Display 2 Resolution,Display 3 Resolution,Display 4 Resolution, Video Resolution, Yaw Method, Yaw Gain, Min Yaw, Yaw at Midpoint, Max Yaw, Min WBAD, WBAD Midpoint, Max WBAD, M_Bottom, M_Top, M_LogLC50, M_Hillside, F_Bottom, F_Top, F_LogLC50, F_Hillside, Thrust Method, Thrust Gain, Min Thrust, Thrust at Midpoint, Max Thrust, Min WBAS, WBAS Midpoint, Max WBAS
+default_Profile,TestData,0,4,165,1920:1080,1440:2560,1440:2560,1440:2560,320:240,Linear,36,0,0,1600,0,2,180,0,0,0,0,0,0,0,0,Linear,2,0,0.4,0.9,0,180,360
+
+isManualAxis, Upper point X, Upper point Y, Lower point X, Lower point Y
+True, 160,200,160,100
+
+Sequence Name, Number of Trials, Start Timestamp, Finish Timestamp
+Dandelion_Sequence_Grey_vs_Color,20,20240618_142213.617268,
+
+Default Stim name, Default Stim type, Stimulus, Default Stim R value, Default Stim G value, Default Stim B value, Default Stim A value, Scene Name, Seconds per revolution
+RotatedWorld,RotatingScene,Blank,123,91,35,255,DefaultStim_SingularTree,3
+
+Interpolation Name, Interpolating Object, OOI ID, Object Interpolation Option, Setting Interpolation Option, Start Value, Final Value , Interpolation method
+
+End of File

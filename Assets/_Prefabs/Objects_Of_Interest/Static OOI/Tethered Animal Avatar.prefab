@@ -344,7 +344,7 @@ MonoBehaviour:
   minimumApproachDistance: 0.2
   encounterType: 0
   triggerDelay: 1
-  OOI_To_Encouter: {fileID: 0}
+  OOI_To_Encounter: {fileID: 0}
   encounterRadius: 1.2
   encounterDuration: 1
 --- !u!1 &4153983193698919080

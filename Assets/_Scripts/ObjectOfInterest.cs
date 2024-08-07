@@ -121,7 +121,9 @@ namespace TetheredFlight
             if (ScriptablePair != null)
             {   
                 UniqueID = ScriptablePair.Get_Object_Of_Interest_ID();
-                EditorUtility.SetDirty(this);
+                #if UNITY_EDITOR
+                    EditorUtility.SetDirty(this);
+                #endif
             }
         }
 
@@ -691,7 +693,9 @@ namespace TetheredFlight
             {
                 UniqueID = newID;
                 UpdateScriptablePair();
-                EditorUtility.SetDirty(this);
+                #if UNITY_EDITOR
+                    EditorUtility.SetDirty(this);
+                #endif
             }
             else
             {

@@ -83,14 +83,18 @@ namespace TetheredFlight
                 //If we have chosen to manually set the longitudinal axis and the values have not been set show popup
                 if(isAutomaticLongitudinalAxis == false && longitudinalAxisScript.ArePointsSet() == false)
                 {
-                    EditorUtility.DisplayDialog("Warning", "You have not manually set the longitudinal Axis", "Ok"); 
-                    return;
+                    #if UNITY_EDITOR
+                        EditorUtility.DisplayDialog("Warning", "You have not manually set the longitudinal Axis", "Ok"); 
+                        return;
+                    #endif
                 }
             }
 
             DirectoryManager.Instance.Initialise_Directory();
             
-            CreateStimulusScreens.Focus_On_Stimulus();
+            #if UNITY_EDITOR
+                CreateStimulusScreens.Focus_On_Stimulus();
+            #endif
             Open_Menu(stimulusMenu);
 
             SequenceManager.Instance.Reset_Number_Of_Trials();

@@ -82,7 +82,9 @@ namespace TetheredFlight
 
         public void LocateTrialFolder()
         {
-            trialFolderPath = EditorUtility.OpenFolderPanel("Select the Trial Folder you wish to replay"," ", " ");
+            #if UNITY_EDITOR
+                trialFolderPath = EditorUtility.OpenFolderPanel("Select the Trial Folder you wish to replay"," ", " ");
+            #endif
 
             if(trialFolderPath != string.Empty)
             {
