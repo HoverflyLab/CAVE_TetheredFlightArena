@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5c7ec7ecc813297afa83df5191a3d6, type: 3}
+  m_Name: Dandelion_Sequence_Flower_Tree_LargeF
+  m_EditorClassIdentifier: 
+  listOfTrials:
+  - {fileID: 11400000, guid: 5241d539bdf339df68b7f47781817e51, type: 2}
+  - {fileID: 11400000, guid: 822241ac0742758f5a4182c033f2cc94, type: 2}
+  - {fileID: 11400000, guid: deac43e2aa684e4469b3d8823141d2ac, type: 2}
+  - {fileID: 11400000, guid: 3eff7234ff144e304ab468182acac697, type: 2}
+  - {fileID: 11400000, guid: 80612354637e04c998718b4e7e3841f2, type: 2}
+  - {fileID: 11400000, guid: d32c757328861b8eb8638365a4ea7d82, type: 2}
+  defaultStimulus: {fileID: 11400000, guid: 3a5404e0d90995898bf19830d6884596, type: 2}
+  list_Of_Interpolations: []

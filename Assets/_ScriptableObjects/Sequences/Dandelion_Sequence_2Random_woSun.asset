@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5c7ec7ecc813297afa83df5191a3d6, type: 3}
+  m_Name: Dandelion_Sequence_2Random_woSun
+  m_EditorClassIdentifier: 
+  listOfTrials:
+  - {fileID: 11400000, guid: 68efb015c15483a0db11dc748e6bebf1, type: 2}
+  - {fileID: 11400000, guid: 7219eca0395d59209a38d89c343af97c, type: 2}
+  - {fileID: 11400000, guid: 8e2efa3d3b0248b798e56297e101e841, type: 2}
+  - {fileID: 11400000, guid: 7219eca0395d59209a38d89c343af97c, type: 2}
+  - {fileID: 11400000, guid: 5968531d568e79bbda4fddc47ea8aa52, type: 2}
+  - {fileID: 11400000, guid: 7219eca0395d59209a38d89c343af97c, type: 2}
+  - {fileID: 11400000, guid: f02bddbd147b15a7caabb096a46dbd44, type: 2}
+  - {fileID: 11400000, guid: 7219eca0395d59209a38d89c343af97c, type: 2}
+  - {fileID: 11400000, guid: 62410fbe6fcdd6a4887ec09b08456603, type: 2}
+  - {fileID: 11400000, guid: 7219eca0395d59209a38d89c343af97c, type: 2}
+  defaultStimulus: {fileID: 11400000, guid: 3a5404e0d90995898bf19830d6884596, type: 2}
+  list_Of_Interpolations: []

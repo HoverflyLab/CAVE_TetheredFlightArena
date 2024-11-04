@@ -23,4 +23,112 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrialScenes/DandelionCircle_two_yellows.unity
     guid: 69861c7a018b6d884bac5d7d75a5f314
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_2_loom.unity
+    guid: 1847b73b6a27b0022b2d0dfd63c1e30e
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/ApproachingPredator.unity
+    guid: ec2365dcc08cea181a30e5c1cd58bc2c
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/BlackCylinders.unity
+    guid: b9eab4bca0d5c2800ae1e2968d53887a
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/CylindersCircle_ApproachingPredator.unity
+    guid: 3d9465f0770200d929bc2cb5af1f64f1
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/CylindersCircle_NoApproaching.unity
+    guid: 3006117655ac82ff992ab4e5ae623200
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion.unity
+    guid: 5b4202273fbeddb02b40cdc7bee97ad1
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_5MovingAway.unity
+    guid: d87a70a29857724c18c0680375c32e36
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_Approaching2DBall.unity
+    guid: 2b80a55f8ed065d12909b2b8b995c8bd
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_Approaching2DBall_emptyfield.unity
+    guid: 10eaa8daf0066f5ad9d54fd1a0f2b287
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_ApproachingBall.unity
+    guid: 8b539083df14f6e458c5a86560306417
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_ApproachingBallControl.unity
+    guid: 52e19dade1159f5b3857594cab52b464
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_ApproachingFlyFlyBall.unity
+    guid: 9956286a0925a717bb8d48a46b8ecab6
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_change2_bird.unity
+    guid: 6cb4696cd93ae8feba802be75ca57e79
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_four_colours.unity
+    guid: 85abd61a3277dc249b929ac28aba2cb0
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_four_objects.unity
+    guid: dd4c559a44ca681cfbff2b4e84d7a5bd
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_four_yellows.unity
+    guid: 63fb618f0e920f188b00d6869d43b82f
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_Original.unity
+    guid: b4f993fc3e69bc61d87391beb0b9d9a0
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_two_colours.unity
+    guid: bfca1dd1d64f300d4850e4c10bc1cd12
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_two_Large_yellows_two_trees.unity
+    guid: 37575609c4eaa1afd86f5a751a6f36d0
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_two_yellows_Large_two_trees.unity
+    guid: 383530a26b521acccbebafa92337ddbb
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_two_yellows_two_trees.unity
+    guid: 5c4d09fb525f79f49bed951ffb16ac40
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionCircle_ApproachingPredator.unity
+    guid: 2a3a1d90893c3c480899cb5d2b66375c
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionCircle_ApproachingPredator2M.unity
+    guid: 2066825cdb8f352ff9aaeae786f1dcf0
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionCircle_ApproachingPredator_control.unity
+    guid: f8c60df746e31514882fa7e22f2026de
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionCircle_eight_yellows.unity
+    guid: ab0350997bd7d6a1f84202b19f372625
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionCircle_four_yellows.unity
+    guid: 3627ee27a4ed22cf58d65476c1204481
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionRandom_BlueGradientSkyWithoutSun.unity
+    guid: 2e39e8cb335070d3689e806e93db338d
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/DandelionRandom_BlueGradientSkyWithSun.unity
+    guid: 357c1b3cd148cd6a2948ce2ae1c9d51a
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/EmptyField_ApproachingFlyFlyBall.unity
+    guid: 7c06e3829caf87b4a9017703a8f3f109
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/EmptySence.unity
+    guid: a3bb73920f3e88b5bb84c237ba347c9b
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Falcon.unity
+    guid: 02e4c004139642d059b8048505e5da10
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Objects_test.unity
+    guid: f099bc7675261276a92fa83934b18817
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Static2DBall_emptyfield.unity
+    guid: 61a201881a9b08b65b53babacfeadcfe
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/StaticFlyFlyBall_emptyfield.unity
+    guid: 48b79928c6bca67a2a126e44c7bc6075
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Wasp.unity
+    guid: 938ffca602d87c48b9b22dcf4b5fa605
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/WaspForGains.unity
+    guid: 1457615a403a02f848e724f54972b287
   m_configObjects: {}

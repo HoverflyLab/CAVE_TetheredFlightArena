@@ -21,6 +21,7 @@ MonoBehaviour:
   - {x: 1440, y: 2560}
   - {x: 1440, y: 2560}
   videoResolution: {x: 320, y: 240}
+  autoStartNextTrial: 0
   yaw_Method: 1
   yaw_dps: 36
   minYaw: 0
@@ -33,7 +34,7 @@ MonoBehaviour:
   thrust_mps: 2
   minThrust: 0
   thrustAtMidpoint: 0.4
-  maxThrust: 0.9
-  min_WBAS: 0
+  maxThrust: 1.8
+  min_WBAS: 140
   midpoint_WBAS: 180
-  max_WBAS: 360
+  max_WBAS: 270

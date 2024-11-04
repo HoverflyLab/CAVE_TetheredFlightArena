@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311956, g: 0.3807402, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311956, g: 0.3807402, b: 0.35872734, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -304,9 +304,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list_Of_Sequences:
-  - {fileID: 11400000, guid: fdee38531ea82b04cb60d12364d1767c, type: 2}
-  - {fileID: 11400000, guid: 9a650a81b73d65e69afd5078578363af, type: 2}
-  - {fileID: 11400000, guid: fdee38531ea82b04cb60d12364d1767c, type: 2}
+  - {fileID: 11400000, guid: e8e3110371ee91d28aaadab1d139d633, type: 2}
+  - {fileID: 11400000, guid: 8d5baad0be6e362888b2e190b2784ef3, type: 2}
+  - {fileID: 11400000, guid: 362b416787cc83332a61f0b553524f5e, type: 2}
   verbose: 0
 --- !u!4 &1648181527
 Transform:
@@ -626,6 +626,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2975578582604910110, guid: 5347c205bf9550c9090576215757e681, type: 3}
+      propertyPath: isActivatingStimulusScreens
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5796073571336103523, guid: 5347c205bf9550c9090576215757e681, type: 3}
       propertyPath: m_Pivot.x
       value: 0

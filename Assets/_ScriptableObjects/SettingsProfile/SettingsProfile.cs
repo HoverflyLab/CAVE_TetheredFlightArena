@@ -32,6 +32,11 @@ namespace TetheredFlight
         private Vector2Int videoResolution = new Vector2Int(320,240);
         #endregion
 
+        #region Trial Variables
+        [SerializeField, DisableIf(nameof(isLocked)), Tooltip("Start trials automatically one after the other")]
+        private bool autoStartNextTrial = true;
+        #endregion
+
         #region Yaw Variables
         [Header("Turning Speed (Yaw) Settings")]
         [SerializeField] 
@@ -137,6 +142,10 @@ namespace TetheredFlight
         public List<Vector2Int> Get_List_Of_Monitor_Resolutions() { return list_of_monitorResolutions; }
         public Vector2Int Get_Video_Resolution() {return videoResolution; }
         //gamma
+        #endregion
+
+        #region Trial Settings Getters
+        public bool Get_AutoStartNextTrial() { return autoStartNextTrial; }
         #endregion
 
         #region Yaw Getters

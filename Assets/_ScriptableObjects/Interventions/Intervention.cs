@@ -28,6 +28,7 @@ namespace TetheredFlight
         [SerializeField, DisableIf(nameof(isLocked)), ShowIf(nameof(Action), InterventionActions.ApproachingObject), Tooltip("Distance the Object approaches the OOI from in meters")] private float ApproachDistance = 5f;
         [SerializeField, DisableIf(nameof(isLocked)), ShowIf(nameof(Action), InterventionActions.ApproachingObject), Tooltip("Approach direction relative to the OOI, e.g. 0,0,0 is directly infront")] private Vector3 ApproachDirection = new Vector3();
         [SerializeField, DisableIf(nameof(isLocked)), ShowIf(nameof(Action), InterventionActions.ApproachingObject), Tooltip("Use this to adjust the Target Location, e.g. Object approaches the point 10cm above the OOI")] private Vector3 ApproachOffset = new Vector3();
+        [SerializeField, DisableIf(nameof(isLocked)), ShowIf(nameof(Action), InterventionActions.ApproachingObject), Tooltip("If True, Approaching OOI's visible component will rotate toward the Target OOI not the Target Location")] private bool FaceTargetOOI = true;
         [SerializeField, DisableIf(nameof(isLocked)), ShowIf(nameof(Action), InterventionActions.ApproachingObject), Tooltip("Once the Object is within this distance (meters) to the Target Location the Intervention ends")] private float ApproachProximity = 0.1f;
         [SerializeField, DisableIf(nameof(isLocked)), ShowIf(nameof(Action), InterventionActions.ApproachingObject), Tooltip("Duration (seconds) before the Object is removed from view")] private float ApproachProximityDuration = 1f;
 
@@ -53,6 +54,7 @@ namespace TetheredFlight
         public float Get_ApproachDistance() { return ApproachDistance; }
         public Vector3 Get_ApproachDirection() { return ApproachDirection; }
         public Vector3 Get_ApproachOffset() { return ApproachOffset; }
+        public bool Get_FaceTargetOOI() { return FaceTargetOOI;}
         public float Get_ApproachProximity() { return ApproachProximity; }
         public float Get_ApproachProximityDuration() { return ApproachProximityDuration; }
         public Object_Of_Interest Get_TriggerOOI() { return triggerOOI; }
@@ -91,7 +93,7 @@ namespace TetheredFlight
             + "," + Position.y.ToString() + "," + Position.z.ToString() + "," + Rotation.x.ToString() + "," + Rotation.y.ToString() + "," + Rotation.z.ToString() 
             + "," + Scale.x.ToString() + "," + Scale.y.ToString() + "," + Scale.z.ToString() + "," +  approachingOOI + "," + isTrackingTarget.ToString() 
             + "," + ApproachSpeed.ToString() + "," + ApproachDistance.ToString() + "," + ApproachDirection.x.ToString() + "," + ApproachDirection.y.ToString() 
-            + "," + ApproachDirection.z.ToString() + "," + ApproachOffset.x.ToString() + "," + ApproachOffset.y.ToString() + "," + ApproachOffset.z.ToString() 
+            + "," + ApproachDirection.z.ToString() + "," + ApproachOffset.x.ToString() + "," + ApproachOffset.y.ToString() + "," + ApproachOffset.z.ToString() + "," + FaceTargetOOI.ToString()
             + "," + ApproachProximity.ToString() + "," + ApproachProximityDuration.ToString() + "," + targetID + "," + interventionType.ToString() + "," + numberOfFrames.ToString() 
             + "," + interventionTrigger.ToString() + "," + triggerDelayDuration.ToString()  + "," + triggerProximity.ToString() + "," + triggerProximityDuration.ToString() + "," + isRepeatable.ToString(); 
         }
@@ -114,6 +116,7 @@ namespace TetheredFlight
         public void Set_ApproachDistance(float value) { ApproachDistance = value; }
         public void Set_ApproachDirection(Vector3 rot) { ApproachDirection = rot; }
         public void Set_ApproachOffset(Vector3 pos) { ApproachOffset = pos; }
+        public void Set_FaceTargetOOI(bool value) {FaceTargetOOI = value; }
         public void Set_ApproachProximity(float value) { ApproachProximity = value; }
         public void Set_ApproachProximityDuration(float value) { ApproachProximityDuration = value; }
         public void Set_TriggerOOI(Object_Of_Interest OOI) { triggerOOI = OOI; }

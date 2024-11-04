@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c453d4aaff3a0ff1ae3cc837827704e, type: 3}
+  m_Name: ObjectsTestTrial3
+  m_EditorClassIdentifier: 
+  sceneName: Objects_test
+  completionType: 1
+  trialDuration: 60
+  preStimulusType: 1
+  preStimulusDuration: 0.5
+  preStimulus: 1
+  preStimulusColor:
+    serializedVersion: 2
+    rgba: 4286611584
+  preStimulusRevolutions: 2
+  postStimulusType: 1
+  postStimulusDuration: 0.5
+  postStimulus: 1
+  postStimulusColor:
+    serializedVersion: 2
+    rgba: 4286611584
+  postStimulusRevolutions: 3
+  list_of_Interventions: []
+  list_Of_Objects_Of_Interest:
+  - {fileID: 11400000, guid: d2d36439216ab4a4c9d0f67df055767e, type: 2}
+  - {fileID: 11400000, guid: e56771d24425e26e4ab1e09d298322f0, type: 2}
+  - {fileID: 11400000, guid: 63b909371f2c11f4a8258c899e73363d, type: 2}
+  - {fileID: 11400000, guid: fd245545aee247124ae2dd906d9fcf59, type: 2}
+  - {fileID: 11400000, guid: 588ae0080c2c7878db4c100ae669e701, type: 2}
+  - {fileID: 11400000, guid: 3e3be01763e4b5b3eb65f3586a93df82, type: 2}
+  - {fileID: 11400000, guid: da7debdef47cbd3f7b30a2dbe23bad87, type: 2}
+  - {fileID: 11400000, guid: 3fb70cf3f976f12298ae28800542dbd1, type: 2}
+  list_Of_OOI_Position_Changes:
+  - {x: 2, y: 0, z: 0}
+  - {x: 1.41, y: 0, z: 1.41}
+  - {x: 0, y: 0, z: 2}
+  - {x: -1.41, y: 0, z: 1.41}
+  - {x: -2, y: 0, z: 0}
+  - {x: -1.41, y: 0, z: -1.41}
+  - {x: 0, y: 0, z: -2}
+  - {x: 1.41, y: 0, z: -1.41}
+  list_Of_OOI_Proximities:
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  list_Of_OOI_Proximity_Durations:
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5

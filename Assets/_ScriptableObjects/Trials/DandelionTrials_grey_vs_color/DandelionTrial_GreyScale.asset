@@ -31,14 +31,22 @@ MonoBehaviour:
   postStimulusRevolutions: 3
   list_of_Interventions: []
   list_Of_Objects_Of_Interest:
+  - {fileID: 11400000, guid: f7a5a03844176c83fb0b57e751398f9a, type: 2}
   - {fileID: 11400000, guid: 8a627320ffeba9b00bca81b0701504fb, type: 2}
+  - {fileID: 11400000, guid: d340a3799cde35274999d251198fcc79, type: 2}
   - {fileID: 11400000, guid: 6d4aa1f9514ea9a0292ddbd879631d17, type: 2}
   list_Of_OOI_Position_Changes:
+  - {x: -0.98, y: 0, z: 0.17}
   - {x: -0.64, y: 0, z: 0.77}
+  - {x: 0.64, y: 0, z: 0.77}
   - {x: 0.98, y: 0, z: 0.17}
   list_Of_OOI_Proximities:
   - 0.4
   - 0.4
+  - 0.4
+  - 0.4
   list_Of_OOI_Proximity_Durations:
+  - 2
+  - 2
   - 2
   - 2

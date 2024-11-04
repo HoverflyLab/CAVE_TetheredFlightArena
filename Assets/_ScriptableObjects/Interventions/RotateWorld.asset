@@ -33,4 +33,4 @@ MonoBehaviour:
   triggerProximity: 3
   triggerProximityDuration: 0.5
   isRepeatable: 0
-  isLocked: 0
+  isLocked: 1
