@@ -131,4 +131,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrialScenes/WaspForGains.unity
     guid: 1457615a403a02f848e724f54972b287
+  - enabled: 1
+    path: Assets/Scenes/TrialScenes/Dandelion_three_yellows.unity
+    guid: cf9d197bd7cf944cda71314c6256703d
   m_configObjects: {}

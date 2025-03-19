@@ -898,7 +898,7 @@ MonoBehaviour:
   minimumApproachDistance: 0.2
   encounterType: 0
   triggerDelay: 1
-  OOI_To_Encouter: {fileID: 0}
+  OOI_To_Encounter: {fileID: 0}
   encounterRadius: 1.2
   encounterDuration: 1
 --- !u!23 &1419032004474646927
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   minimumApproachDistance: 0.2
   encounterType: 0
   triggerDelay: 1
-  OOI_To_Encouter: {fileID: 0}
+  OOI_To_Encounter: {fileID: 0}
   encounterRadius: 1.2
   encounterDuration: 1
 --- !u!1 &2650430482315000735
@@ -1603,7 +1603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8239497637973738145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.41, y: 0, z: 1.41}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   minimumApproachDistance: 0.2
   encounterType: 0
   triggerDelay: 1
-  OOI_To_Encouter: {fileID: 0}
+  OOI_To_Encounter: {fileID: 0}
   encounterRadius: 1.2
   encounterDuration: 1
 --- !u!4 &7859086672300868599
@@ -1650,7 +1650,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5413766430986157532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.41, y: 0, z: 1.41}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:

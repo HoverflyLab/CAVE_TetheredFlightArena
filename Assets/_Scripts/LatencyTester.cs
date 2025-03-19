@@ -50,8 +50,10 @@ namespace TetheredFlight
         #region Canvas Variables
         [SerializeField] private RawImage canvas = default;
         private Color32 whiteColor = new Color32(255,255,255,255);
+        private Color32 greyColor  = new Color32(127,127,127,255);
         private Color32 blackColor = new Color32(0,0,0,255);
         private bool isWhite = false;
+        private int frameCount = 0; 
         #endregion
 
         void Awake()
@@ -105,16 +107,35 @@ namespace TetheredFlight
                 Array_of_lists[3].Add(Get_Time_In_Milliseconds().ToString());
                 valuesUpdated = false;
             }
-
+            // if(canvas.enabled == true)
+            // {
+            //     if(isWhite == true)
+            //     {
+            //         canvas.color = whiteColor;
+            //     }
+            //     else
+            //     {
+            //         canvas.color = blackColor;
+            //     }
+            // }
+            // This is all commented out, but uncomment this
+            // and comment out the 'isWhite' if else to test
+            // the refresh rate of the monitor instead
             if(canvas.enabled == true)
             {
-                if(isWhite == true)
-                {
-                    canvas.color = whiteColor;
-                }
-                else
-                {
-                    canvas.color = blackColor;
+                switch(frameCount){
+                    case 0:
+                        frameCount = frameCount + 1;
+                        canvas.color = whiteColor;
+                        break;
+                    case 1:
+                        frameCount = frameCount + 1;
+                        canvas.color = greyColor;
+                        break;
+                    case 2:
+                        frameCount = 0;
+                        canvas.color = blackColor;
+                        break;
                 }
             }
         }
@@ -138,6 +159,7 @@ namespace TetheredFlight
         {
             midPoint = DataProcessor.Instance.Get_LongitudinalAxis_Upper_Point();
 
+            midPoint.y = 150;
             //send values to Latency Canvas
             if( squareMidPoint.y > midPoint.y)
             {

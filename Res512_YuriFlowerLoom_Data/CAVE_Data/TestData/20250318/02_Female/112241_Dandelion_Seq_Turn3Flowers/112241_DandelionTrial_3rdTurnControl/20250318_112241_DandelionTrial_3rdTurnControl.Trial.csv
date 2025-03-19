@@ -1,0 +1,28 @@
+Trial Name, Scene Name, Position in Sequence, Completion Type, Trial Duration, Pre Stimulus Duration, Post Stimulus Duration
+DandelionTrial_3rdTurnControl,Dandelion_three_yellows,0,Duration_Or_Proximity,30,0.5,0.5
+
+Stimulus Type, Stimulus Duration, Stimulus, Stim R value, stim G value, stim B value, stim A value, number of revolutions
+Scene,0.5,SineGrating,128,128,128,255,2
+Scene,0.5,SineGrating,128,128,128,255,3
+
+Intervention Name, Action, OOI ID, Position x, Position y, Position z, Rotation x , Rotation y, Rotation z, Scale x, Scale y, Scale z, Approaching OOI ID, isTrackingTarget, Approach Speed, Approach Distance, Approach Direction x, Approach Direction y, Approach Direction z, Approach Offset x, Approach Offset y, Approach Offset z, Success Distance, Success Delay, Target OOI ID, Intervention Type, Number of Frames, Trigger, Trigger Delay, Proximity, Proximity Delay, isRepeatable
+
+ID of Changed OOI, Change to x position, Change to y position, Change to z position, Proximity, Proximity Duration
+21,0,0,1,0.4,15
+22,0,0,2,0.4,15
+23,0,0,3,0.4,2
+
+ID of OOI in scene, Name, Dynamic
+14,World,False
+23,Dandelion_Y3,False
+22,Dandelion_Y2,False
+0,Tethered Animal Avatar,False
+21,Dandelion_Y,False
+
+Trial Completed by,Name,ID
+Duration
+
+Prestim Start Timestamp, Closedloop Start Timestamp, Poststim Start Timestamp, Poststim Finish Timestamp, No of packets received
+20250318_112241.576300,20250318_112242.081717,20250318_112312.086808,20250318_112312.589281,5074
+
+End of File

@@ -1,0 +1,32 @@
+Trial Name, Scene Name, Position in Sequence, Completion Type, Trial Duration, Pre Stimulus Duration, Post Stimulus Duration
+DandelionCircle_FrontalApproach,DandelionCircle_ApproachingPredator,0,Duration,20,0.5,0.5
+
+Stimulus Type, Stimulus Duration, Stimulus, Stim R value, stim G value, stim B value, stim A value, number of revolutions
+Scene,0.5,Blank,128,128,128,255,2
+Scene,0.5,Blank,128,128,128,255,2
+
+Intervention Name, Action, OOI ID, Position x, Position y, Position z, Rotation x , Rotation y, Rotation z, Scale x, Scale y, Scale z, Approaching OOI ID, isTrackingTarget, Approach Speed, Approach Distance, Approach Direction x, Approach Direction y, Approach Direction z, Approach Offset x, Approach Offset y, Approach Offset z, Success Distance, Success Delay, Target OOI ID, Intervention Type, Number of Frames, Trigger, Trigger Delay, Proximity, Proximity Delay, isRepeatable
+ApproacingFlyFlyBall,ApproachingObject,0,0,10,0,0,0,0,0,0,0,32,True,30,90,0,0,0,0,0,0,True,0.38,0,-1,Instant,10,Duration,0,3,0.5,False
+
+ID of Changed OOI, Change to x position, Change to y position, Change to z position, Proximity, Proximity Duration
+
+ID of OOI in scene, Name, Dynamic
+5,Dandelion1,False
+14,World,False
+7,Dandelion3,False
+23,Dandelion_Y3,False
+22,Dandelion_Y2,False
+8,Dandelion4,False
+6,Dandelion2,False
+0,Tethered Animal Avatar,False
+24,Dandelion_Y4,False
+21,Dandelion_Y,False
+32,FlyFlyBall,False
+
+Trial Completed by,Name,ID
+Duration
+
+Prestim Start Timestamp, Closedloop Start Timestamp, Poststim Start Timestamp, Poststim Finish Timestamp, No of packets received
+20241104_141118.492499,20241104_141118.999217,20241104_141139.005166,20241104_141139.508176,3474
+
+End of File

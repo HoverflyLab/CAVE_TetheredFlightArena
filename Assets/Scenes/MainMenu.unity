@@ -304,9 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list_Of_Sequences:
-  - {fileID: 11400000, guid: e8e3110371ee91d28aaadab1d139d633, type: 2}
-  - {fileID: 11400000, guid: 8d5baad0be6e362888b2e190b2784ef3, type: 2}
-  - {fileID: 11400000, guid: 362b416787cc83332a61f0b553524f5e, type: 2}
+  - {fileID: 11400000, guid: 7ce3f24337c013799801e1a59647f20d, type: 2}
   verbose: 0
 --- !u!4 &1648181527
 Transform:
@@ -455,6 +453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1067934201443464997, guid: 1cb06b682f9ecf7a68b6c6182e8f2567, type: 3}
+      propertyPath: isLatencyTest
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1067934201443464999, guid: 1cb06b682f9ecf7a68b6c6182e8f2567, type: 3}
       propertyPath: m_Name
       value: UDP Socket
@@ -730,6 +732,14 @@ PrefabInstance:
     - target: {fileID: 6201344218754539834, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
       propertyPath: m_Name
       value: Latency Tester
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201344218754539837, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201344218754539838, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6201344218754539839, guid: 864f730da803a613ab5b6eb2c6e726f5, type: 3}
       propertyPath: m_Pivot.x
