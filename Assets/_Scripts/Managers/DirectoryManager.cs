@@ -48,6 +48,7 @@ namespace TetheredFlight
             if(isSavingData)
             {
                 personal_Folder_Directory = Application.dataPath + "/" + parent_Folder_Name + "/" + SettingsManager.Instance.Get_Personal_Folder_Name() + "/";
+                Debug.Log(personal_Folder_Directory);
 
                 //current date as the folder name, within the Experiment Data Folder
                 startDate = System.DateTime.Now.ToString("yyyyMMdd").ToString();
